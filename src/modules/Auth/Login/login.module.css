@@ -1,0 +1,78 @@
+
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background: url('../../../assets/bg.svg') center/cover no-repeat fixed;
+}
+
+.loginBox{
+    display: flex;
+    width: 80vw;
+    background: #fff;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.left{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.right{
+    flex: 6;
+}
+
+.image{
+    height: 70vh;
+}
+
+.txt{
+    width: 100%;
+    padding: 1rem 0.3rem; 
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background-color: rgba(0, 255, 255, 0.075);
+}
+
+.txt::placeholder{
+    font-size: 0.9rem;
+}
+
+.col{
+    width: 70%;
+    display: flex;
+    gap: 4vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(99, 99, 99);
+}
+
+.submit{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: cyan;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #616161;
+    cursor: pointer;
+}
